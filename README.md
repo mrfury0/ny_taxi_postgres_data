@@ -1,4 +1,3 @@
-
 # NYC Taxi Postgres Data
 
 This repository contains files and scripts for setting up a PostgreSQL database for ingesting NYC taxi data.
@@ -7,9 +6,6 @@ This repository contains files and scripts for setting up a PostgreSQL database 
 
 - `ingest_data.py`: Python script for ingesting NYC taxi data into the PostgreSQL database.
 - `Dockerfile`: Dockerfile for creating a PostgreSQL container.
-- `ny_taxi_postgres_data/`: Folder for storing PostgreSQL data.
-- `output.csv`: Output CSV file.
-- `output.csv.gz`: Compressed output CSV file.
 
 ## Docker Commands
 
@@ -52,4 +48,3 @@ python ingest_data.py \
 ```
 
 This command will fetch the data from the specified URL and insert it into the `yellow_taxi_data` table in the `ny_taxi` database.
-
