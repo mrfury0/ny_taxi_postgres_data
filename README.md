@@ -1,6 +1,4 @@
-Certainly! Here's a complete README.md file that includes all the information in one place:
 
-```markdown
 # NYC Taxi Postgres Data
 
 This repository contains files and scripts for setting up a PostgreSQL database for ingesting NYC taxi data.
